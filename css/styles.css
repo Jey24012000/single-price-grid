@@ -1,0 +1,143 @@
+:root{
+
+    --suscription-color: #00a896;
+    --button-color:hsl(71, 73%, 54%);
+    --join-color: hsl(204, 43%, 93%);
+    --info-color: hsl(218, 22%, 67%);
+    --primary-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.main-container{
+    width: auto;
+    min-width: 300px;
+    height: auto;
+    padding: 60px 20px;
+    background-color: var(--join-color);
+}
+.section-container{
+    width: 100%;
+    height: auto;
+    max-width: 375px;
+    margin: 0 auto;
+    ;
+}
+.section-join{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.join--title{
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: var(--suscription-color);
+}
+.join--guarantee{
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--button-color);
+}
+.join--info{
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--info-color);
+    
+}
+.section-suscription{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: var(--suscription-color);
+}
+.suscription--title{
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+}
+.suscription--price{
+    margin-bottom: 12px;
+    color: var(--join-color);
+}
+.suscription--price span{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.suscription--info{
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+.suscription--submit{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    
+}
+.suscription--submit a{
+    display: inline-block;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary-color); 
+}
+.suscription--submit:hover{
+    background-color: var(--primary-color);
+}
+.suscription--submit a:hover{
+    color: var(--button-color);
+}
+
+.section-whyus{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #40c5b8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.whyus--title{
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+ul li{
+    margin-bottom: 4px;
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: var(--join-color);
+}
+ul li a:hover{
+    color: var(--primary-color);
+}
+footer{
+    padding: 8px;
+    background-color: black;
+    text-align: center;
+}
+footer p{
+    color: var(--primary-color);
+}
+footer p a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
