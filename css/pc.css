@@ -1,0 +1,21 @@
+.main-container{
+    height: 100vh;
+}
+.section-container{
+    width: 100%;
+    min-height: 400px;
+    min-width: 500px;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-join{
+    width: 100%;
+}
+.section-suscription{
+    width: 50%;
+    border-bottom-left-radius: 10px;
+}
+.section-whyus{
+    width: 50%;
+    border-bottom-left-radius: 0px;
